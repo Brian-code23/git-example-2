@@ -14,3 +14,8 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+.wrapper p {
+    padding: 10px;
+    text-align: center;
+}
