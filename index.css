@@ -22,7 +22,7 @@
 }
 
 .navbar__list--item {
-    float: left;
+    /* float: left; */
     padding: 10px;
 }
 
@@ -64,4 +64,15 @@
 .home_section p {
     padding: 10px;
     color: #fff;
+}
+
+@media screen and (min-width: 500px) {
+    .navbar__list {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .navbar__list--item  {
+        flex: 1 1 0;
+    }
 }
